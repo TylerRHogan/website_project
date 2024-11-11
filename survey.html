@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body style="background-color: rgb(236, 122, 29)"></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <a href="index.html" class="color-white">HISTORIC TRAVELS</a>
+        <div class="navbar">
+             <a href="greece.html" class="top-nav-item">GREECE</a>
+          <a href="japan.html" class="top-nav-item">JAPAN</a>
+          <a href="survey.html" class="top-nav-item">FEEDBACK</a>
+       
+        </div>
+      </div>
+    <div class="container">
+      <form action="index.html">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="united-kingdom">United Kingdom</option>
+              <option value="usa">United States</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Feedback</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
